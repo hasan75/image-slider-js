@@ -14,6 +14,8 @@ setInterval(()=>{
     if(imgIndex >= images.length){
         imgIndex = 0;
     }
+    let imgUrl = images[imgIndex];
+    imgElement.setAttribute('src', imgUrl )
     //console.log(imgIndex)
     imgIndex++;
-},1000)
+},1200)
